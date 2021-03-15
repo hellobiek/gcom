@@ -2,8 +2,8 @@ package utils
 
 import (
 	"os"
-	"github.com/kniren/gota/series"
-	"github.com/kniren/gota/dataframe"
+	"github.com/go-gota/gota/series"
+	"github.com/go-gota/gota/dataframe"
 	//"github.com/klauspost/compress/gzip"
 
 	"github.com/hellobiek/gcom/logger"
