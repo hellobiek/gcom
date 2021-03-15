@@ -20,7 +20,7 @@ func TestEncryptBlowfish(t *testing.T) {
 
 func TestEncryptMd5Sum(t *testing.T) {
 	Convey("测试文件Hash的结果", t, func() {
-		result, err := EncryptMd5Sum("/Users/datochan/WorkSpace/GoglandProjects/src/data/report/gpcw19960630.zip")
+		result, err := EncryptMd5Sum("/Users/hellobiek/WorkSpace/GoglandProjects/src/data/report/gpcw19960630.zip")
 		So(err, ShouldBeNil, nil)
 		So(result, ShouldEqual, "18023e9f84565323874e8e1dbdfb2adb")
 	})
@@ -28,7 +28,7 @@ func TestEncryptMd5Sum(t *testing.T) {
 
 func TestEncryptMd5Hex(t *testing.T) {
 	Convey("测试普通字符串加密的结果", t, func() {
-		result := EncryptMd5Hex([]byte("/Users/datochan/WorkSpace/GoglandProjects/src/data/report/gpcw19960630.zip"))
+		result := EncryptMd5Hex([]byte("/Users/hellobiek/WorkSpace/GoglandProjects/src/data/report/gpcw19960630.zip"))
 		So(result, ShouldEqual, "f218da9637ce006bd6fb06213346bf97")
 	})
 

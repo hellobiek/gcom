@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"github.com/qd-um/golang-crypto/blowfish"
 	"github.com/klauspost/compress/zlib"
-	gbytes "github.com/datochan/gcom/bytes"
+	gbytes "github.com/hellobiek/gcom/bytes"
 	"os"
 )
 

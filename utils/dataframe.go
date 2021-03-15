@@ -6,7 +6,7 @@ import (
 	"github.com/kniren/gota/dataframe"
 	//"github.com/klauspost/compress/gzip"
 
-	"github.com/datochan/gcom/logger"
+	"github.com/hellobiek/gcom/logger"
 )
 
 /**

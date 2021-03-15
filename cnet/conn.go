@@ -7,7 +7,7 @@ import (
 	"sync"
 	"fmt"
 	"time"
-	"github.com/datochan/gcom/utils"
+	"github.com/hellobiek/gcom/utils"
 )
 
 var (
